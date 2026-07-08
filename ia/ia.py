@@ -47,7 +47,7 @@ def entrenar():
         if i % 100 == 0:
             print(f"progreso: {i}/500 - Error: {loss.item():.4f}")
 
-    print("Arrancando entrenamiento")
+    print("IA ARRANCANDO")
     entrenar();
     print("Entrenamiento completado")
 
